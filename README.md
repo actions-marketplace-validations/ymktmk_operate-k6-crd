@@ -29,3 +29,11 @@ spec:
           name: secret
           key: token
 ```
+
+```yaml
+ - name: Create K6 CRD
+  uses: ymktmk/operate-k6-crd@v1
+  with: 
+    method: create
+    template_file: ./k6.yaml
+```
