@@ -1,4 +1,4 @@
-## apply-k6-crd
+## operate-k6-crd
 
 A GitHub Actions tool for working with K6 CRDs.
 
